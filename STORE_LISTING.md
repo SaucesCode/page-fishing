@@ -9,6 +9,14 @@
 - **Category**: Fun / Games
 - **Language**: English
 - **Price**: Free
+- **Search Terms / Keywords** (up to 7 terms, max 30 characters each):
+  1. `fishing`
+  2. `browser game`
+  3. `aquarium`
+  4. `virtual pet`
+  5. `relaxing game`
+  6. `screen toy`
+  7. `ocean`
 - **Privacy Policy / Permissions**:
   - `activeTab`: Used exclusively to inject the SVG fishing overlay when the user triggers the action.
   - `scripting`: Executes the lightweight fishing canvas on user command.
