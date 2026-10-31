@@ -19,4 +19,4 @@ All game progress—including caught fish, discovered species, earned pearls, an
 Page Fishing contains zero remote scripts, analytics trackers, advertising networks, or external telemetry. All logic is self-contained within the extension package.
 
 ### Contact
-If you have questions about this privacy policy, you can reach out via GitHub: https://github.com/jamessdemesa/page-fishing
+If you have questions about this privacy policy, you can reach out via GitHub: https://github.com/SaucesCode/page-fishing

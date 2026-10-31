@@ -1,6 +1,6 @@
 const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'C:/Users/CARE MBA/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const path = require('node:path'), {pathToFileURL} = require('node:url'), assert = require('node:assert/strict');
-const out = process.argv[2] || path.resolve(__dirname, '..');
+const out = process.argv[2] || path.resolve(__dirname, '..', 'assets', 'previews');
 
 (async () => {
   const browser = await chromium.launch({headless: true, channel: 'msedge'});
