@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Distribution and packaging
+dist/
+scratch/
+*.zip
+
+# Temporary test screenshots
+test-*.png
+bucket-layout-*.png
+rewards-modal-*.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b7871"/>
+      <stop offset="70%" stop-color="#1d3d3a"/>
+      <stop offset="100%" stop-color="#112523"/>
+    </radialGradient>
+    <linearGradient id="fish" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd27d"/>
+      <stop offset="50%" stop-color="#f09b48"/>
+      <stop offset="100%" stop-color="#d46b2b"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe6b0"/>
+      <stop offset="100%" stop-color="#e88a38"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Base Disc -->
+  <circle cx="64" cy="64" r="60" fill="url(#bg)" stroke="#d4b36a" stroke-width="3.5"/>
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#5da199" stroke-width="1.2" stroke-opacity="0.45"/>
+
+  <!-- Water Ripples -->
+  <path d="M22 66 Q 36 60, 50 66 T 78 66 T 106 66" fill="none" stroke="#78c9c0" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M28 80 Q 42 75, 56 80 T 84 80 T 102 80" fill="none" stroke="#5caea5" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M40 94 Q 54 90, 68 94 T 92 94" fill="none" stroke="#488e86" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.35"/>
+
+  <!-- Leaping Fish Body -->
+  <g transform="rotate(-18 64 60)">
+    <!-- Caudal Fin / Tail -->
+    <path d="M30 64 C 18 52, 14 42, 22 36 C 28 32, 34 46, 38 56 Z" fill="url(#fin)" opacity="0.95"/>
+    <path d="M30 64 C 18 72, 12 84, 20 90 C 26 94, 34 80, 38 70 Z" fill="url(#fin)" opacity="0.95"/>
+
+    <!-- Dorsal Fin -->
+    <path d="M52 46 C 58 32, 70 30, 78 36 C 72 44, 66 48, 62 50 Z" fill="url(#fin)" opacity="0.9"/>
+
+    <!-- Main Fish Body -->
+    <path d="M34 64 C 42 46, 68 40, 88 48 C 98 53, 104 62, 102 68 C 98 78, 80 84, 58 80 C 44 77, 36 70, 34 64 Z" fill="url(#fish)"/>
+
+    <!-- Belly Highlight -->
+    <path d="M42 68 C 54 78, 76 80, 92 70 C 80 77, 56 75, 42 68 Z" fill="#fff2d1" opacity="0.6"/>
+
+    <!-- Pectoral Fin -->
+    <path d="M68 64 C 74 68, 78 78, 72 82 C 67 84, 65 74, 66 65 Z" fill="url(#fin)" opacity="0.95"/>
+
+    <!-- Eye -->
+    <circle cx="89" cy="57" r="4.2" fill="#ffffff"/>
+    <circle cx="90.5" cy="56.5" r="2.4" fill="#1b2a26"/>
+    <circle cx="91.5" cy="55.5" r="0.8" fill="#ffffff"/>
+  </g>
+
+  <!-- Fishing Line and Gilded Hook -->
+  <path d="M96 12 C 94 30, 88 42, 90 56" fill="none" stroke="#ffeaa6" stroke-width="1.8" stroke-dasharray="4 2"/>
+  <path d="M90 56 C 90 62, 85 66, 80 64 C 76 62, 77 57, 81 57" fill="none" stroke="#ffd700" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
