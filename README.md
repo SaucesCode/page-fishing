@@ -4,6 +4,10 @@ An on-page SVG fishing toy for Chrome and Edge. Fish swim across the website as 
 
 ## Install
 
+### Microsoft Edge Add-ons Store
+Install directly from the [Microsoft Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/page-fishing/ngmcajmjgbnbgdpgfjokjghhfjdhbjia).
+
+### Manual / Developer Mode
 1. Open chrome://extensions or edge://extensions.
 2. Enable Developer mode.
 3. Choose Load unpacked, then select this page-fishing folder.
